@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErpSystem.Dominio", "ErpSys
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErpSystem.Repositorio", "ErpSystem.Repositorio\ErpSystem.Repositorio.csproj", "{980EAB33-68B6-44BC-A5F6-AA49DBAB7303}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErpSystem.Web", "ErpSystem.Web\ErpSystem.Web.csproj", "{A8BA876A-21CF-4DA2-ADD0-E8E5F33F493F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{980EAB33-68B6-44BC-A5F6-AA49DBAB7303}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{980EAB33-68B6-44BC-A5F6-AA49DBAB7303}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{980EAB33-68B6-44BC-A5F6-AA49DBAB7303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8BA876A-21CF-4DA2-ADD0-E8E5F33F493F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8BA876A-21CF-4DA2-ADD0-E8E5F33F493F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8BA876A-21CF-4DA2-ADD0-E8E5F33F493F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8BA876A-21CF-4DA2-ADD0-E8E5F33F493F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
