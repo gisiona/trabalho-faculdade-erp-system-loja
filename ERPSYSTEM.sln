@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErpSystem.Dominio", "ErpSystem.Dominio\ErpSystem.Dominio.csproj", "{EB5B2340-AB45-46A7-B25E-1D74049E755A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErpSystem.Repositorio", "ErpSystem.Repositorio\ErpSystem.Repositorio.csproj", "{980EAB33-68B6-44BC-A5F6-AA49DBAB7303}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EB5B2340-AB45-46A7-B25E-1D74049E755A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB5B2340-AB45-46A7-B25E-1D74049E755A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB5B2340-AB45-46A7-B25E-1D74049E755A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{980EAB33-68B6-44BC-A5F6-AA49DBAB7303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{980EAB33-68B6-44BC-A5F6-AA49DBAB7303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{980EAB33-68B6-44BC-A5F6-AA49DBAB7303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{980EAB33-68B6-44BC-A5F6-AA49DBAB7303}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
