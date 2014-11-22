@@ -111,6 +111,16 @@
     <Content Include="Imagem\Editar.png" />
     <Content Include="Imagem\Imprimir.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ErpSystem.Dominio\ErpSystem.Dominio.csproj">
+      <Project>{eb5b2340-ab45-46a7-b25e-1d74049e755a}</Project>
+      <Name>ErpSystem.Dominio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ErpSystem.Negocio\ErpSystem.Negocio.csproj">
+      <Project>{d6eae1ef-56f5-44f3-8510-c7dccac42d4a}</Project>
+      <Name>ErpSystem.Negocio</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
