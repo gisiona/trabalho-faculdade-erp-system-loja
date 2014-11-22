@@ -14,5 +14,11 @@ namespace ErpSystem.Desktop
         {
             InitializeComponent();
         }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+            FrmClientes frm = new FrmClientes();
+            frm.ShowDialog();
+        }
     }
 }
